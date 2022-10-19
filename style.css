@@ -1,0 +1,91 @@
+body {
+    position: relative;
+}
+
+.root {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    background-color: #85dcb0;
+    /* background-image: url('img/backgroundoficial.png'); */
+}
+
+.pontuacao {
+    border-radius:20px; 
+    width: 150px; 
+    height:75px; 
+    margin-top: 10px;
+    background:#e27d60; 
+    color:brown;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+
+.popup p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.popup {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    width: 300px;
+    height: 180px;
+    padding: 15px;
+    margin-right: 10px;
+    color: brown;
+    background: #e8a87c;
+    font-family: fantasy;
+    font-style: normal;
+    font-size:large;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    /* z-index: 1000; */
+
+}
+
+.btnBaixar {
+    border-radius: 10px;
+    background-color:#41b3a3;
+    color: black;
+    border-color: #41b3a3;
+    text-decoration: none;
+}
+
+.btnBaixar:hover{
+    background-color: #85dcb0;
+    cursor: pointer;
+}
+
+.btnFechar{
+    box-sizing:border-box;
+    background-color: #e27d60;
+    border-radius: 50%;
+    border-color: #e27d60;
+    color:black;
+    
+}
+
+.btnFechar:hover{
+    background-color: #e8a87c;
+    cursor:pointer;
+}
+
+.fecharConteiner {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}

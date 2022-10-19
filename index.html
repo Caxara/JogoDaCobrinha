@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts/fecharPopup.js"></script>
+    <script defer src="scripts/gameLogic.js"></script>
+    <title>Snake Game</title>
+  </head>
+  <body id='htmlBody'>
+    <div class="root">
+      <h1 id="gameTitle">SNAKE GAME</h1>
+      <canvas id="snake" width="512" height="512"></canvas>
+
+<!-- Marcador de pontos-->
+    <div class="placaScore" id="Score">
+      <div class="pontuacao">
+        <p>Pontos</p>
+      </div>
+    </div>
+
+    <div class="popup" id="popup">
+      <div class="fecharConteiner">
+        <button id="fecharPopup" class="btnFechar">X</button>
+      </div>
+      <p>Jogue em seu celular.</p>
+      <p> Baixe o aplicativo!</p>
+      
+      <button id="btnBaixar" class="btnBaixar"> Baixar </button>
+      
+    </div>
+
+    <script src="scripts/Score.js"></script>
+    <script src="scripts/baixar.js"></script>
+    <script src="scripts/flashingTilte.js"></script>
+  </body>    
+</html>
+
+<!--Continuarei desenvolvendo o codigo-->
