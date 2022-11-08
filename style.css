@@ -37,21 +37,17 @@ canvas{
 button{
     background-color:transparent;
     color: rgb(2, 57, 65);
-    border-radius: 10px;
-    width: 80px;
-    margin: auto;
-    border: none;
+    border: 0;
+    margin-top: 20px;
     font-size: 20px;
-    text-align: center;
-    margin-top: 30px;
+    position: relative;
     cursor: pointer;
-    /*border: 1px solid rgb(2,57,65);*/
 }
 button::after{
     content: "";
     width: 0%;
     height: 2px;
-    background-color: rgb(11, 11, 11);
+    background-color: rgb(2, 57, 65);
     position: absolute;
     bottom: 0;
     left: 0;
