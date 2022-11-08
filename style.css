@@ -27,7 +27,9 @@ body {
     flex-direction: column;
 
 }
-
+canvas{
+    border-radius: 40px;
+}
 
 .popup p {
     margin: 0;
