@@ -35,17 +35,25 @@ canvas{
     border-left: 1px solid rgb(2, 57, 65);
 }
 footer{
-    background-color:#41b3a447;
-    display: flex;
-    justify-content: center;
+    /*background-color:#41b3a447;*/
     color: #e27d60;
     border-radius: 10px;
-    height: 40px;
     width: 80px;
+    margin: auto;
     font-size: 20px;
     text-align: center;
     margin-top: 30px;
-    border: 1px solid rgb(2,57,65);
+    /*border: 1px solid rgb(2,57,65);*/
+}
+footer::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+footer:hover::after{
+    width: 1005;
 }
 
 /*TUDO SOBRE O POPUP A PARTIR DAQUI*/
