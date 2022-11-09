@@ -82,6 +82,7 @@ button:hover::after{
     align-items: center;
     justify-content:space-between;
     flex-direction: column;
+    border-radius: 10px;
 }
 /* z-index: 1000; */
 
