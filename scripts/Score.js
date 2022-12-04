@@ -8,8 +8,8 @@ const pontuacao = new Game();
     
         function draw(){
             game.update();
-
-    scoreBoard() {
+           
+    scoreBoard()
         textSize (15);
         nostroke();
         fill(26);
@@ -36,6 +36,5 @@ const pontuacao = new Game();
             localStorage.setItem("best",this.best);
         }
     }
-}
 
 /*continuarei experimentando codigos*/
