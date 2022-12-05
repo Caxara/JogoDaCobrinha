@@ -84,7 +84,7 @@ button:hover::after{
     justify-content:space-between;
     flex-direction: column;
     border-radius: 10px;
-    border:2px solid brown;
+    /*border:2px solid brown;*/
 }
 /* z-index: 1000; */
 
