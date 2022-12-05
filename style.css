@@ -74,6 +74,7 @@ button:hover::after{
     height: 180px;
     padding: 15px;
     margin-right: 10px;
+    letter-spacing: 0.1em;
     color: brown;
     background: #e8977c;
     font-family: fantasy;
